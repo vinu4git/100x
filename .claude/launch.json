@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "billshield",
+      "runtimeExecutable": "/Users/Vineeth/Documents/100x/BillShield/BillShield/.venv/bin/python",
+      "runtimeArgs": ["-m", "uvicorn", "api.index:app", "--reload", "--port", "8000", "--app-dir", "/Users/Vineeth/Documents/100x/BillShield/BillShield"],
+      "port": 8000
+    }
+  ]
+}
